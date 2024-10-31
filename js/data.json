@@ -1,0 +1,39 @@
+[
+    {
+      "Question": "Best player in Morocco",
+      "path": "../assests/hero-img-3.png",
+      "id": "1",
+      "Choix1": "Ronaldo CR7",
+      "Choix2": "Hakimi",
+      "Choix3": "Mazraoui",
+      "Choix4": "Bono Yassin"
+    },
+    {
+      "Question": "Best player in the world",
+      "path": "../assests/hero-img-3.png",
+      "id": "2",
+      "Choix1": "Ronaldo CR7",
+      "Choix2": "Hakimi",
+      "Choix3": "Mazraoui",
+      "Choix4": "Bono Yassin"
+    },
+    {
+      "Question": "Best player in France",
+      "path": "../assests/hero-img-3.png",
+      "id": "3",
+      "Choix1": "Ronaldo CR7",
+      "Choix2": "Hakimi",
+      "Choix3": "Mazraoui",
+      "Choix4": "Bono Yassin"
+    },
+    {
+      "Question": "Best player in Germany",
+      "path": "../assests/hero-img-3.png",
+      "id": "4",
+      "Choix1": "Ronaldo CR7",
+      "Choix2": "Hakimi",
+      "Choix3": "Mazraoui",
+      "Choix4": "Bono Yassin"
+    }
+  ]
+  
