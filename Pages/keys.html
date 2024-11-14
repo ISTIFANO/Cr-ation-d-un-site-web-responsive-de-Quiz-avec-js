@@ -43,7 +43,7 @@
             placeholder="Enter key">
        
 
-            <input type="button" value="Next" class="rounded-md bg-[#8854C0] px-8 py-2.5 text-sm font-medium cursor-pointer text-[#f0eef2] shadow">
+            <input type="button" onclick="navigateToTeamDetails()" value="Next" class="rounded-md bg-[#8854C0] px-8 py-2.5 text-sm font-medium cursor-pointer text-[#f0eef2] shadow">
         
    
         </form>
@@ -99,5 +99,11 @@
           </p>
         </div>
       </footer>
+      <source src="../js/quiz.js" type="">
+      <script>
+        function navigateToTeamDetails() {
+          window.location.href = "/Pages/YouQuiz.html";
+        }
+      </script>
   </body>
 </html>
