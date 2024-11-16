@@ -1,23 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="shortcut icon" href="../assests/logo-removebg-preview.png" type="image/x-icon">
-    <title>Document</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="shortcut icon" href="../assests/logo-removebg-preview.png" type="image/x-icon">
+  <title>Quiz Page</title>
+</head>
+<body>
+  <main class="flex h-screen">
+    <!-- First section (image section) -->
+    <section class="w-1/2 flex justify-center items-center">
+      <div>
+        <img class="scale-x-[-1] h-screen" src="../assests/partical_2.png" alt="">
+      </div>
+      <div>
+        <img id="quiz-image" src="../assests/hero-img.png" class="" alt="">
+      </div>
+    </section>
+    <section class="w-1/2 flex flex-col justify-center items-center">
+      <div class="quiz-container w-full max-w-lg p-5 rounded-lg shadow-lg bg-white">
+        <h2 id="question-title" class="text-3xl font-bold text-center mb-6">Quiz</h2>
+        
+        <div id="Options" class="mb-4"></div>
 
-   <nav class="">
+        <div class="Buttons flex justify-between mt-6">
+          <button onclick="PreviousQ()" class="btn-prev bg-gray-300 rounded-md px-4 py-2">Previous</button>
+          <button onclick="nextQuestion()" class="btn-next bg-purple-600 text-white rounded-md px-4 py-2">Next</button>
+        </div>
 
-    <div>
-      <img src="./" alt="" srcset="">
+        <div id="result" class="result hidden mt-8 text-center">
+          <h3 class="text-2xl font-semibold">Your Score</h3>
+          <p id="score" class="text-xl mt-4"></p>
+          <button onclick="NextPage()" class="bg-green-500 text-white px-6 py-2 mt-4 rounded-md">Restart Quiz</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="../js/quiz.js"></script>
+ 
+</body>
 
-
-    </div>
-
-   </nav>
-  </body>
 </html>

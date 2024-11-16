@@ -18,7 +18,6 @@
         <div>
         
     
-    
          
     <div class=" flex flex-row  items-center gap-10 p-7 w-[100%]">
     
@@ -35,14 +34,18 @@
     <div class="relative h-screen w-screen">
         <img class="h-full w-full object-cover" src="../assests/CoverKeys.png" alt="">
         
-        <form action="" method="get" class="absolute inset-0 flex justify-center items-center">
+        <form action="" method="get" class="absolute inset-0 flex justify-center items-center gap-11">
           <input
             class="bg-black text-white p-5 px-16 text-center rounded"
             type="text"
             name="key"
             id="key"
-            placeholder="Enter key"
-          >
+            placeholder="Enter key">
+       
+
+            <input type="button" onclick="navigateToTeamDetails()" value="Next" class="rounded-md bg-[#8854C0] px-8 py-2.5 text-sm font-medium cursor-pointer text-[#f0eef2] shadow">
+        
+   
         </form>
       </div>
       
@@ -92,9 +95,15 @@
           </div>
       
           <p class="mt-12 text-center text-sm text-gray-500 lg:text-right">
-            Copyright &copy; 2022. All rights reserved.
+            Copyright &copy; 2024. All rights reserved by aamir.
           </p>
         </div>
       </footer>
+      <source src="../js/quiz.js" type="">
+      <script>
+        function navigateToTeamDetails() {
+          window.location.href = "/Pages/YouQuiz.html";
+        }
+      </script>
   </body>
 </html>

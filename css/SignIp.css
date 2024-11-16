@@ -1,0 +1,293 @@
+#first-name{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+}
+
+#input-form{
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+
+#input-form  input{
+    width: 432.79px;
+    height: 78.6px;
+    border-radius: 4px;
+}
+
+#input-form  .first-inputs{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    box-sizing: border-box;
+    /* box-sizing: border-box;
+    border-radius: 40px; */
+}
+
+#input-form  .second-inputs{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    box-sizing: border-box;
+    
+}
+
+#input-form  .tird-inputs{
+    display: flex;
+    justify-content: center;
+      gap:15px;
+    box-sizing: border-box;
+}
+
+#button button{
+    width: 429.79px;
+height: 78.6px;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+}
+
+#button button{
+    background: #1E1E1E;
+    border-radius: 4px;
+   
+color: white;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+text-align: center;
+text-transform: uppercase;
+}
+
+/* #button .need{
+    display: flex;
+    align-content: center;
+} */
+
+
+#text{
+    display: flex;
+    justify-content:center;
+}
+
+/* #text a{
+    padding-left: 340px; 
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+text-decoration: none;
+} */
+
+/* #input-form .icone1 i{
+    padding-left: 50px;
+} */
+
+.icone1{
+    position: relative;
+    left: 6%;
+    top: 32px;
+    
+}
+
+.icone1 i{
+    width: 28.65px;
+height: 34.93px;
+}
+
+input {
+    padding-left: 40px;
+}
+
+
+.icone2{
+    position: relative;
+    left: 4%;
+    top: 34px;
+}
+
+input{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.second-inputs{
+    padding-left: 0.8%;
+}
+
+.tird-inputs{
+    padding-left: 2.7%;
+}
+
+.icone3{
+    position: relative;
+    left: 47%;
+    top: 32px;
+}
+
+.icone2{
+    position: relative;
+    left: 9%;
+    top: 32px;
+}
+.icone4{
+    position: relative;
+    left: 35.9%;
+    top: 32px;
+}
+
+.tird-inputs{
+    padding-right: 29px;
+}
+.icone-pass1{
+    position: relative;
+    left: 39.1%;
+    top: 32px;
+}
+
+.icone-pass2{
+    position: relative;
+    left: 3.1%;
+    top: 32px;
+}
+
+#first-name h3{
+   padding-left: 2%;
+}
+
+
+#text a{
+    text-decoration: none;
+    color: #1E1E1E;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+padding-left: 23%;
+padding-top: 0.5%;
+}
+
+#input-form .inputos-1{
+    
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+
+    justify-content: center;
+}
+
+#input-form .inputos-2{
+    
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+ 
+}
+
+#input-form .inputos-3{
+    
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+
+}
+input{
+    border:solid;
+    border: #1E1E1E;
+}
+@media screen and (max-width : 500px) {
+    
+#input-form  .first-inputs .inputos{
+    width: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    padding-right: 40px;
+}
+#input-form input {
+    width: 300px;
+    height: 78.6px;
+    border-radius: 4px;
+   
+    
+
+}
+
+
+#input-form .inputos-1{
+    
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    padding-right: 110px;
+    align-items: flex-end;
+    padding-left: 40px;
+}
+
+#input-form .inputos-2{
+    
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    padding-right: 100px;
+    padding-left: 40px;
+}
+
+#input-form .inputos-3{
+    
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    padding-right: 76px;
+    padding-left: 40px;
+}
+
+#button button{
+
+width: 377.1px;
+
+gap: 30px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+border-radius: 4px;
+
+}
+
+#text{
+    padding-left: 250px;
+}
+.icone1{
+background-color: red;
+position: relative;
+width: 28.65px;
+height: 34.93px;
+left: 31px;
+top: 120px;
+
+
+}
+
+body{
+    margin-right: 0px;
+    padding-right: 0px;
+}
+}
+
+
+#input-form{
+    position: relative;
+}
